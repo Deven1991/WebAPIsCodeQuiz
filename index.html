@@ -10,16 +10,21 @@
 </head>
 
 <body>
-    <div class="card">
-        <h1>Coding Quiz Challenge</h1>
-        <form id="todo-form" method="POST">
-            <label for="todo-text">Add a Todo: </label>
-            <input type="text" placeholder="I need to..." name="todo-text" id="todo-text" />
-        </form>
-        <p>Todo Count: <span id="todo-count">0</span></p>
-        <ul id="todo-list"></ul>
+    <header>
+        <nav>
+            <a href="highscores.html">View Highscores</a>
+        </nav>
+    </header>
+    <main>
+        <section id = "start" class="quiz-section">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Test your coding knowledge with this quiz challenge!</p>
+            <p>You have 60 seocnds to answer five questions. Everytime you get an answer incorrect, 10 seconds gets deducted from your time.</p>
+            <p>Your final score is the amount of time you have left. If the timer reaches zero, that is an automatic game over.</p>
+            <button class="start-button">Start Coding Quiz</button>
+        </section>
+    </main>
 
-    </div>
     <script src="./assets/js/script.js"></script>
 </body>
 
