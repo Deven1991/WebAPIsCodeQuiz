@@ -3,7 +3,7 @@ var timeLeft = document.getElementById("timeLeft");
 var timesUp = document.getElementById("timesUp");
 
 var startDiv = document.getElementById("start");
-var startQuizBtn = document.getElementById("startBtn");
+var startQuizBtn = document.getElementById("start-btn");
 
 var questionDiv = document.getElementById("questionDiv");
 var questionTitle = document.getElementById("question");
@@ -11,7 +11,7 @@ var answerA = document.getElementById("btn0");
 var answerB = document.getElementById("btn1");
 var answerC = document.getElementById("btn2");
 var answerD = document.getElementById("btn3");
-var answerCheck = document.getElementById("answerCheck");
+var answerCheck = document.getElementById("answer-check");
 
 var summary = document.getElementById("summary");
 var submitInitialBtn = document.getElementById("submit-initial-btn");
@@ -97,9 +97,9 @@ function nextQuestion() {
 // Confirms whether answer is correct or incorrect
 function checkAnswer(answer) {
 
-    var lineBreak = document.getElementById("lineBreak");
-    lineBreak.style.display = "block";
-    answerCheck.style.display = "block";
+    // var lineBreak = document.getElementById("lineBreak");
+    // lineBreak.style.display = "block";
+    // answerCheck.style.display = "block";
 
     if (questions[questionIndex].answer === questions[questionIndex].options[answer]) {
         correctAns++;
