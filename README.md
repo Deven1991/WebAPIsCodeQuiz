@@ -32,4 +32,4 @@ Once the user is done taking the quiz, they are prompted to enter initials for h
 ## Links
 
 Link to GitHub Page: https://deven1991.github.io/WebAPIsCodeQuiz/
-Repo: https://github.com
+Repo: https://github.com/Deven1991/WebAPIsCodeQuiz.git
