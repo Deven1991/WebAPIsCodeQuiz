@@ -2,33 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Highscores</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Highscores!</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Back to Quiz</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Highscores Listed Here</h1>
-        <table id="highscores-table">
-            <tr>
-                <th>Rank</th>
-                <th>Scores</th>
-                <th>Initials</th>
-            </tr>
-        </table>
-        <div id="highscore-btn">
-            <a href="index.html" class="back-btn">Back</a>
-            <button id="clear-highscores">Clear highscores</button>
-        </div>
-    </main>
-    <script src="./assets/js/highscore.js"></script>
+    <div class="page">
+        <h1>Highscores</h1>
+        <ol id="highscores"></ol>
+        <a href="index.html"><button class="btn">Back to Quiz</button></a>
+        <button id="reset" class="btn">Clear Highscores</button>
+    </div>
+    <script src="assets/js/highscore.js"></script>
 </body>
-
 </html>
